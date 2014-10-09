@@ -1,0 +1,23 @@
+{
+    "name": "jonlambert/application-settings",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jon Lambert",
+            "email": "hi@jon.pm"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.3.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Jonlambert\\ApplicationSettings\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
