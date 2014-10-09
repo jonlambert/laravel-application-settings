@@ -1,6 +1,6 @@
 {
     "name": "jonlambert/application-settings",
-    "description": "",
+    "description": "A class-based application settings plugin. More information to follow soon on the GitHub repo.",
     "authors": [
         {
             "name": "Jon Lambert",
@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.3.*"
+        "laravel/framework": "4.1.*"
     },
     "autoload": {
         "classmap": [
