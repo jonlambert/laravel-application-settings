@@ -22,9 +22,8 @@ class SettingsManager {
 	 * @param Config $config
 	 * @param DbSettingsRepository $repository
 	 */
-	public function __construct(Config $config, DbSettingsRepository $repository)
+	public function __construct(DbSettingsRepository $repository)
 	{
-		$this->config = $config;
 		$this->repository = $repository;
 
 		$this->loadSettings();
@@ -91,6 +90,6 @@ class SettingsManager {
 	 */
 	private function getSettingClasses()
 	{
-		return $this->config->get("application-settings::settings.settings");
+		return \Config::get("application-settings::settings.settings");
 	}
-} 
+}
