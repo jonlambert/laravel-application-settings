@@ -8,4 +8,4 @@ use Illuminate\Contracts\Validation\ValidationException;
  */
 
 
-class SettingValidationException extends ValidationException {}
+class SettingValidationException extends Exception {}
